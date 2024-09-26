@@ -1,0 +1,33 @@
+.checkList{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inputField {
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitButton {
+    padding: 0.5rem 1rem;
+    background-color: #9c88ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #7861ff;
+  }
+  
